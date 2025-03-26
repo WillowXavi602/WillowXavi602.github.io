@@ -1,0 +1,34 @@
+html, body {
+    margin: 20px;
+ background-color: steelblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #0000b8;
+}
+
+.bio{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #ff8c00;
+}
+
+
+
+
+
+
+
+
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.Placeholder {
+    animation: spin 3s linear infinite;
+  }
