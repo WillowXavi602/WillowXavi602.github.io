@@ -12,12 +12,55 @@ html, body {
   color: #ff8c00;
 }
 
+@media (min-width: 576px) {
+  .section {
+      display: flex;
+      justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .section {
+      flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 992px) {
+  .section {
+      flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-2, .grid-3, .grid-6 {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  th, td {
+      font-size: 14px;
+  }
+}
+
+.responsive-video {
+  max-width: 100%;
+  height: auto;
+}
 
 
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
 
+.table-responsive {
+    overflow: hidden;
+    margin: 20px 0;
+}
 
-
-
+.responsive img {
+  text-align: center;
+}
 
 
 @keyframes spin {
@@ -27,6 +70,10 @@ html, body {
     100% {
       transform: rotate(360deg);
     }
+  }
+
+.Placeholder {
+    animation: spin 3s linear infinite;
   }
 
 .Placeholder {
