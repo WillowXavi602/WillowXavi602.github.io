@@ -74,8 +74,7 @@ img {
 
 .Placeholder {
     animation: spin 3s linear infinite;
+    text-align: center;
   }
 
-.Placeholder {
-    animation: spin 3s linear infinite;
-  }
+
