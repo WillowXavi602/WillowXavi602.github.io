@@ -72,6 +72,11 @@ img {
     }
   }
 
+h4 {
+    font-size: 24px;
+    color: #0000b8;
+  }
+
 .Placeholder {
     animation: spin 3s linear infinite;
     text-align: center;
